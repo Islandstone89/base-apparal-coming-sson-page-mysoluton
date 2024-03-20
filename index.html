@@ -29,11 +29,15 @@
       <form class="form" novalidate>
         <div class="input-wrapper">
           <span class="visually-hidden">Enter email address</span>
-          <input type="email" name="email" id="email" placeholder="Email Address">
-          <button type="submit">Test</button>
-          <img src="images/icon-arrow.svg" alt="" class="icon-arrow">
+
+          <input type="email" name="email" id="email" placeholder="Email Address" class="email-input js-email-input">
+          <img src="images/icon-error.svg" alt="" class="icon-error">
+          <button type="submit" class="submit-btn js-submit-btn">
+            <img src="images/icon-arrow.svg" alt="" class="icon-arrow">
+          </button>
         </div><!-- end input-wrapper -->
-        <p class="error js-error">Please provide a valid email address</p>
+
+        <p class="error js-error"></p>
       </form><!-- end form -->
     </div><!-- end text -->
 
